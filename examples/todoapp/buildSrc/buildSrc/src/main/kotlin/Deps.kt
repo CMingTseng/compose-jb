@@ -21,18 +21,18 @@ object Deps {
     object Android {
         object Tools {
             object Build {
-                const val gradlePlugin = "com.android.tools.build:gradle:4.1.0"
+                const val gradlePlugin = "com.android.tools.build:gradle:7.0.1"
             }
         }
     }
 
     object AndroidX {
         object AppCompat {
-            const val appCompat = "androidx.appcompat:appcompat:1.3.0"
+            const val appCompat = "androidx.appcompat:appcompat:1.3.1"
         }
 
         object Activity {
-            const val activityCompose = "androidx.activity:activity-compose:1.3.0"
+            const val activityCompose = "androidx.activity:activity-compose:1.3.1"
         }
     }
 
